@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. Ibanga Enoobong Ime (World class developer and entrepreneur in transit)
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.alc4.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thank_you"
+             />
+
+       <EditText
+           android:id="@+id/et_name"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint="What is your name"/>
+
+        <Button
+            android:id="@+id/sumbit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Click Me"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
